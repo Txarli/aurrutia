@@ -1,8 +1,8 @@
 ---
 path: "/un-enfoque-pragmatico-de-nuestros-tests-frontend"
-date: 2020-07-12
+date: 2020-06-10
 title: "Un enfoque pragmático de nuestros tests del frontend"
-banner: "./images/banner.png"
+banner: "./images/banner.jpg"
 ---
 
 Resulta difícil decir nada que no se haya dicho ya en torno a los beneficios del testing. En Biko, **tenemos un compromiso con las buenas prácticas** y tenemos clara la responsabilidad de testar nuestras aplicaciones. En este post no vengo a decirte [por qué debes hacer tests](https://www.youtube.com/watch?v=vlorWIlPgY0&t), **vengo a hablar del enfoque que estamos dando a nuestros tests en los desarrollos frontend**.
