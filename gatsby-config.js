@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -19,7 +18,6 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -38,5 +36,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-transformer-remark"
   ],
 };
