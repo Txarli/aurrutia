@@ -3,7 +3,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import { GlobalStyles } from "../theme/GlobalStyles";
-import { font, fontWeight, size } from "../theme/theme";
+import { font, fontWeight, grid, size } from "../theme/theme";
 import Img from 'gatsby-image'
 
 export default function Template({ data }) {
@@ -14,16 +14,23 @@ export default function Template({ data }) {
 
       <Helmet title={`Aitor Urrutia - ${post.frontmatter.title}`} />
 
-      <div>
+      <Container>
         <Title>{post.frontmatter.title}</Title>
 
         {post.frontmatter.banner && <Img fluid={post.frontmatter.banner.childImageSharp.fluid}></Img>}
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+      </Container>
     </>
   );
 }
+
+// DUPLICADO se duplica de la home: index.tsx
+const Container = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: ${grid.contentMaxWidth}px;
+`;
 
 const Title = styled.h1`
   ${font.h1()}
