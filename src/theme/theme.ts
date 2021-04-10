@@ -2,11 +2,7 @@ import { css } from 'styled-components'
 import { rem } from 'polished'
 
 export const grid = {
-  contentMaxWidth: 1132,
-  gap: {
-    mobile: 24,
-    desktop: 48,
-  },
+  contentMaxWidth: 800,
 }
 
 export const size = {
@@ -82,4 +78,5 @@ export const fontWeight = {
 
 export const colors = {
   black: '#000000',
+  grey: '#0e0e0e'
 }
