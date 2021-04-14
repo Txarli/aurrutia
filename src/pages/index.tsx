@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import { GlobalStyles } from "../theme/GlobalStyles";
 import { size, grid, font, fontWeight, colors } from "../theme/theme";
@@ -8,6 +9,8 @@ const IndexPage = ({ data }) => {
   return (
     <>
       <GlobalStyles />
+
+      <Helmet title="Aitor Urrutia" />
       <Container>
         <Hello>Kaixo! Soy Aitor Urrutia y me dedico al desarrollo de software.</Hello>
 
