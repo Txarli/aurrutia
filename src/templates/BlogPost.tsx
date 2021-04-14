@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { GlobalStyles } from "../theme/GlobalStyles";
 import { font, fontWeight, grid, size } from "../theme/theme";
 import Img from 'gatsby-image'
+import avatarUrl from '../images/avatar.jpg'
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
@@ -15,6 +16,12 @@ export default function Template({ data }) {
       <Helmet title={`Aitor Urrutia - ${post.frontmatter.title}`} />
 
       <Container>
+        <Header>
+          <HomeLink href="/">
+            <Avatar src={avatarUrl} alt="Aitor Urrutia" /> Aitor Urrutia
+          </HomeLink>         
+        </Header>
+
         <Title>{post.frontmatter.title}</Title>
 
         {post.frontmatter.banner && <Img fluid={post.frontmatter.banner.childImageSharp.fluid}></Img>}
@@ -24,6 +31,26 @@ export default function Template({ data }) {
     </>
   );
 }
+
+const HomeLink = styled.a`
+  display: flex;
+  align-items: center;
+  ${font.h3()}
+`
+
+const Header = styled.header`
+  display: flex;
+  align-items: center;
+  margin-bottom: ${size.medium}px;
+  height: ${size.huge}px;
+  padding: ${size.tiny}px;
+`
+
+const Avatar = styled.img`
+  height: ${size.large}px;
+  border-radius: 50%;
+  margin-right: ${size.small}px;
+`
 
 // DUPLICADO se duplica de la home: index.tsx
 const Container = styled.div`
