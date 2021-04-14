@@ -57,6 +57,20 @@ const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: ${grid.contentMaxWidth}px;
+
+  p {
+    margin-bottom: ${size.base}px;
+  }
+
+  h2 {
+    ${font.h2()}
+    font-weight: ${fontWeight.bold};
+    margin-bottom: ${size.small}px;
+  }
+
+  strong {
+    font-weight: ${fontWeight.bold};
+  }
 `;
 
 const Title = styled.h1`
