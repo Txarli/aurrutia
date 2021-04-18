@@ -55,7 +55,7 @@ const Social = styled.ul`
 const HomeLink = styled.a`
   display: flex;
   align-items: center;
-  ${font.h3()}
+  ${font.h4()}
 `;
 
 const Wrapper = styled.header`
