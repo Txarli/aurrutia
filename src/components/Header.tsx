@@ -37,8 +37,8 @@ const SocialItemWrapper = styled.li`
 `;
 
 const SocialIconWrapper = styled.div`
-  height: ${size.medium}px;
-  width: ${size.medium}px;
+  height: ${size.base}px;
+  width: ${size.base}px;
 `;
 
 const SocialIcon = styled.a`
