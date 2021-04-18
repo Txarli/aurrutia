@@ -34,12 +34,11 @@ const IndexPage = ({ data }) => {
 
 const Hello = styled.div`
   ${font.h3()}
-  margin-bottom: ${size.large}px;
-  padding: ${size.base}px;
+  margin-bottom: ${size.medium}px;
 `;
 
 const PostWrapper = styled.div`
-  padding: ${size.base}px;
+  margin-bottom: ${size.base}px;
 `;
 
 const PostTitle = styled.a`
