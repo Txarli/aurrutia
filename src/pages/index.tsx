@@ -25,6 +25,9 @@ const IndexPage = ({ data }) => {
             <PostTitle href={post.frontmatter.path}>
               {post.frontmatter.title}
             </PostTitle>
+            {post.frontmatter.highlight && (
+              <PostHighlight>{post.frontmatter.highlight}</PostHighlight>
+            )}
             <PostDate>{post.frontmatter.date}</PostDate>
           </PostWrapper>
         ))}
@@ -45,6 +48,18 @@ const PostWrapper = styled.div`
 const PostTitle = styled.a`
   ${font.h4()}
   font-weight: ${fontWeight.bold};
+`;
+
+const PostHighlight = styled.p`
+  font-style: italic;
+
+  &::before {
+    content: '"';
+  }
+
+  &::after {
+    content: '"';
+  }
 `;
 
 const PostDate = styled.div`
@@ -69,6 +84,7 @@ export const pageQuery = graphql`
             title
             path
             date(formatString: "DD-MM-YYYY")
+            highlight
           }
         }
       }

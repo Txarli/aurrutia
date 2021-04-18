@@ -3,6 +3,7 @@ path: '/algo-de-negocio-en-tu-codigo'
 date: 2020-11-19
 title: 'Hay algo de negocio en tu código: (algunas) ideas para la entrega de valor'
 banner: './images/arrival.jpg'
+highlight: 'Su trabajo no es el código, el código es un resultado de su trabajo. Su responsabilidad es entender el negocio y hacerlo suyo'
 ---
 
 Es sábado por la mañana y Miren, frontend developer, entra a clase en nuestro [Curso de Desarrollo de Software](https://www.biko2.com/curso-desarrollo-software/). El plan del día no es el esperado en un curso que promete ser técnico: [\*\*Rubén](https://twitter.com/rubenbpv) y yo dinamizaremos una sesión sobre definición de historias de usuario\**. Como es habitual en la *Biko School\*, abrimos boca con una introducción teórica para, acto seguido, poner en práctica lo aprendido.
