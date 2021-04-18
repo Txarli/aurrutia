@@ -16,10 +16,8 @@ const IndexPage = ({ data }) => {
         <Header />
 
         <Hello>
-          Kaixo! 🙋‍♂️
-          <br />
-          Soy Aitor Urrutia y me dedico al desarrollo de software, con el foco
-          puesto en las personas, la entrega de valor y la mejora continua.
+          Kaixo! 🙋‍♂️ Soy Aitor Urrutia y me dedico al desarrollo de software, con
+          el foco puesto en personas, entrega de valor y mejora continua.
         </Hello>
 
         {data.allMarkdownRemark.edges.map(({ node: post }) => (
