@@ -64,7 +64,6 @@ const Wrapper = styled.header`
   justify-content: space-between;
   margin-bottom: ${size.medium}px;
   height: ${size.huge}px;
-  padding: ${size.tiny}px;
 `;
 
 const Avatar = styled.img`
