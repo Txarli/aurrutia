@@ -60,6 +60,7 @@ const Title = styled.h1`
   ${font.h1()}
   font-weight: ${fontWeight.bold};
   margin-bottom: ${size.small}px;
+  text-align: center;
 `;
 
 export const pageQuery = graphql`
