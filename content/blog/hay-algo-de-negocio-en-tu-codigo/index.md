@@ -1,11 +1,11 @@
 ---
-path: "/algo-de-negocio-en-tu-codigo"
+path: '/algo-de-negocio-en-tu-codigo'
 date: 2020-11-19
-title: "Hay algo de negocio en tu código: (algunas) ideas para la entrega de valor"
-banner: "./images/arrival.jpg"
+title: 'Hay algo de negocio en tu código: (algunas) ideas para la entrega de valor'
+banner: './images/arrival.jpg'
 ---
 
-Es sábado por la mañana y Miren, frontend developer, entra a clase en nuestro [Curso de Desarrollo de Software](https://www.biko2.com/curso-desarrollo-software/). El plan del día no es el esperado en un curso que promete ser técnico: [**Rubén](https://twitter.com/rubenbpv) y yo dinamizaremos una sesión sobre definición de historias de usuario**. Como es habitual en la *Biko School*, abrimos boca con una introducción teórica para, acto seguido, poner en práctica lo aprendido.
+Es sábado por la mañana y Miren, frontend developer, entra a clase en nuestro [Curso de Desarrollo de Software](https://www.biko2.com/curso-desarrollo-software/). El plan del día no es el esperado en un curso que promete ser técnico: [\*\*Rubén](https://twitter.com/rubenbpv) y yo dinamizaremos una sesión sobre definición de historias de usuario\**. Como es habitual en la *Biko School\*, abrimos boca con una introducción teórica para, acto seguido, poner en práctica lo aprendido.
 
 Empezamos explicando que, **para hacer bien nuestro trabajo, es fundamental un profundo conocimiento del negocio**. En vez de limitarnos a ejecutar una solución, debemos participar en la definición de esta. Para ello, **es necesaria una conversación entre las personas implicadas en el proyecto**, desde perfiles de negocio hasta perfiles de desarrollo. Una conversación que se da en el **dominio del problema**, ahí donde solo se habla de las necesidades de la persona que utiliza nuestro software. Una vez entendidas estas necesidades es cuando pasamos al **dominio de la solución**, donde se definen y dibujan formularios, tablas y llamadas al API.
 
@@ -15,9 +15,9 @@ Esta conversación sobre las necesidades **debe estar exenta de ambigüedades**.
 
 Aquello que Miren ha sufrido tiene nombre: **aprendizaje accidental**. El aprendizaje accidental es aquel que ocurre sin esperarlo, cuando todo debería estar claro. Nos frena, nos hace ser ineficientes y genera frustración en el equipo. **Contra el aprendizaje accidental tenemos el aprendizaje deliberado**, aquel que ocurre cuando todas las personas implicadas en el proyecto se alinean para entender cuál es la necesidad que se quiere cubrir. Solo así podemos sacar partido al verdadero potencial del equipo. **Solo así podremos centrarnos en la entrega de valor.**
 
-El tiempo avanza, las transparencias se terminan y toca ponerse manos a la obra. Antes de eso, queda ver cómo llevar a la práctica estos principios de los que hemos hablado. Explicamos que, en uno de nuestros proyectos en Biko, **nos está funcionando el enfoque *[Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example#:~:text=Specification%20by%20example%20(SBE)%20is,examples%20instead%20of%20abstract%20statements.)* que llevamos a cabo en talleres de *Example Mapping***. Explicamos en qué consisten (nota del autor: daría para otro post).
+El tiempo avanza, las transparencias se terminan y toca ponerse manos a la obra. Antes de eso, queda ver cómo llevar a la práctica estos principios de los que hemos hablado. Explicamos que, en uno de nuestros proyectos en Biko, **nos está funcionando el enfoque _[Specification by Example](<https://en.wikipedia.org/wiki/Specification_by_example#:~:text=Specification%20by%20example%20(SBE)%20is,examples%20instead%20of%20abstract%20statements.>)_ que llevamos a cabo en talleres de _Example Mapping_**. Explicamos en qué consisten (nota del autor: daría para otro post).
 
-Arrancamos la práctica: **Miren y su equipo harán un taller de *Example Mapping* para una aplicación en la que Rubén y yo asumimos el rol de negocio**. No olvidemos los principios de los que hemos hablado: dominio del problema, evitar las ambigüedades y aprendizaje deliberado. Miren los tiene apuntados en su cuaderno, empiezan las conversaciones.
+Arrancamos la práctica: **Miren y su equipo harán un taller de _Example Mapping_ para una aplicación en la que Rubén y yo asumimos el rol de negocio**. No olvidemos los principios de los que hemos hablado: dominio del problema, evitar las ambigüedades y aprendizaje deliberado. Miren los tiene apuntados en su cuaderno, empiezan las conversaciones.
 
 Durante el ejercicio, ocurre algo que Rubén y yo no esperamos. En el taller, **el equipo de Miren descubre que nuestro planteamiento permite a algunas personas generar gastos de miles de euros**. La idea con la que veníamos no solo no es la mejor posible, sino que puede hundirnos. Menos mal que Miren ha sabido evitarlo, **proponiendo una nueva regla que hará que esto no ocurra**. Como negocio nos parece bien, muchas gracias y adelante, buen trabajo.
 

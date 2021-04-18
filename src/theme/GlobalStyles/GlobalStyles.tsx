@@ -1,8 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
-import { colors, font } from '../theme'
+import { createGlobalStyle } from 'styled-components';
+import { colors, font } from '../theme';
 
-import { reboot } from './reboot'
-import { reset } from './reset'
+import { reboot } from './reboot';
+import { reset } from './reset';
 
 export const GlobalStyles = createGlobalStyle`
   ${reset};
@@ -15,4 +15,4 @@ export const GlobalStyles = createGlobalStyle`
     ${font.base()};
     color: ${colors.black};
   }
-`
+`;

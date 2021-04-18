@@ -1,8 +1,8 @@
 ---
-path: "/sobre-developers-y-buenas-personas"
+path: '/sobre-developers-y-buenas-personas'
 date: 2020-12-18
-title: "Sobre developers y (buenas) personas"
-banner: "./images/tree.jpg"
+title: 'Sobre developers y (buenas) personas'
+banner: './images/tree.jpg'
 ---
 
 Durante el proceso de selección de Biko, entre los nervios e incertidumbre que caracterizan una entrevista de trabajo, alguien me preguntó: "¿Cuál es el mayor reto al que te has enfrentado en tu carrera?". Buena pregunta, aunque me pilló por sorpresa. No recuerdo bien qué contesté, además de balbucear una lista de funcionalidades, tecnologías e infraestructuras con las que había trabajado hasta esa fecha.

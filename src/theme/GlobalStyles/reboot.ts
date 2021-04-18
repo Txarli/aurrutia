@@ -1,4 +1,4 @@
-import { css } from 'styled-components'
+import { css } from 'styled-components';
 
 /**
  * Inicializa estilos base
@@ -36,4 +36,4 @@ export const reboot = css`
   strong {
     font-weight: 700;
   }
-`
+`;
