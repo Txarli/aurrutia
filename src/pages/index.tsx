@@ -13,8 +13,10 @@ const IndexPage = ({ data }) => {
       <Helmet title="Aitor Urrutia" />
       <Container>
         <Hello>
-          Kaixo!
-          <br /> Soy Aitor Urrutia y me dedico al desarrollo de software.
+          Kaixo! 🙋‍♂️
+          <br />
+          Soy Aitor Urrutia y me dedico al desarrollo de software, con el foco
+          puesto en las personas, la entrega de valor y la mejora continua.
         </Hello>
 
         {data.allMarkdownRemark.edges.map(({ node: post }) => (
