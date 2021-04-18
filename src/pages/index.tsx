@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
+import { Header } from '../components/Header';
 import { GlobalStyles } from '../theme/GlobalStyles';
 import { size, grid, font, fontWeight, colors } from '../theme/theme';
 
@@ -12,6 +13,8 @@ const IndexPage = ({ data }) => {
 
       <Helmet title="Aitor Urrutia" />
       <Container>
+        <Header />
+
         <Hello>
           Kaixo! 🙋‍♂️
           <br />

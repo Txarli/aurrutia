@@ -3,12 +3,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { GlobalStyles } from '../theme/GlobalStyles';
-import { colors, font, fontWeight, grid, size } from '../theme/theme';
+import { font, fontWeight, grid, size } from '../theme/theme';
 import Img from 'gatsby-image';
-import avatarUrl from '../images/avatar.jpg';
-import Twitter from '../images/twitter.svg';
-import LinkedIn from '../images/linkedin.svg';
-
+import { Header } from '../components/Header';
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
@@ -18,22 +15,7 @@ export default function Template({ data }) {
       <Helmet title={`Aitor Urrutia - ${post.frontmatter.title}`} />
 
       <Container>
-        <Header>
-          <HomeLink href="/">
-            <Avatar src={avatarUrl} alt="Aitor Urrutia" /> Aitor Urrutia
-          </HomeLink>
-
-          <Social>
-            <SocialItem
-              icon={<Twitter />}
-              url="https://twitter.com/aitorcurrutia"
-            />
-            <SocialItem
-              icon={<LinkedIn />}
-              url="https://twitter.com/aitorcurrutia"
-            />
-          </Social>
-        </Header>
+        <Header />
 
         <Title>{post.frontmatter.title}</Title>
 
@@ -46,60 +28,6 @@ export default function Template({ data }) {
     </>
   );
 }
-
-const SocialItem: React.FC<{
-  icon: React.ReactNode;
-  url: string;
-}> = ({ icon, url }) => (
-  <SocialItemWrapper>
-    <SocialIconWrapper>
-      <SocialIcon href={url}>{icon}</SocialIcon>
-    </SocialIconWrapper>
-  </SocialItemWrapper>
-);
-
-const SocialItemWrapper = styled.li`
-  &:not(:last-child) {
-    margin-right: ${size.base}px;
-  }
-`;
-
-const SocialIconWrapper = styled.div`
-  height: ${size.medium}px;
-  width: ${size.medium}px;
-`;
-
-const SocialIcon = styled.a`
-  svg > path {
-    fill: ${colors.grey};
-  }
-`;
-
-const Social = styled.ul`
-  display: flex;
-  list-style-type: none;
-`;
-
-const HomeLink = styled.a`
-  display: flex;
-  align-items: center;
-  ${font.h3()}
-`;
-
-const Header = styled.header`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: ${size.medium}px;
-  height: ${size.huge}px;
-  padding: ${size.tiny}px;
-`;
-
-const Avatar = styled.img`
-  height: ${size.large}px;
-  border-radius: 50%;
-  margin-right: ${size.small}px;
-`;
 
 // DUPLICADO se duplica de la home: index.tsx
 const Container = styled.div`
