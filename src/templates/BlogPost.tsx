@@ -20,7 +20,9 @@ export default function Template({ data }) {
         <Title>{post.frontmatter.title}</Title>
 
         {post.frontmatter.banner && (
-          <Img fluid={post.frontmatter.banner.childImageSharp.fluid}></Img>
+          <BannerWrapper>
+            <Img fluid={post.frontmatter.banner.childImageSharp.fluid}></Img>
+          </BannerWrapper>
         )}
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -28,6 +30,10 @@ export default function Template({ data }) {
     </>
   );
 }
+
+const BannerWrapper = styled.div`
+  margin-bottom: ${size.medium}px;
+`;
 
 // DUPLICADO se duplica de la home: index.tsx
 const Container = styled.div`
